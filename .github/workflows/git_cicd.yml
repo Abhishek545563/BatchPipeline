@@ -7,6 +7,11 @@ on:
       - main
     paths:
       - 'dbscripts/**'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'dbscripts/**'    
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
