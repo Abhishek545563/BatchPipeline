@@ -5,4 +5,4 @@ create table IF NOT EXISTS test.first_table
 	LAST_NAME VARCHAR
 );
 
-INSERT INTO test.first_table values ('Abhishek','Arora');
+INSERT INTO test.first_table values ('Abhi','Arora');
